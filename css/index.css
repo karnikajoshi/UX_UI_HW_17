@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    border: 1px;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-image img {
+    width: 1200px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); 
+   
+}
+.hero-image {
+    position: absolute;  
+    bottom: 100px;
+    left: 750px;
+}
+
+.ul {
+    padding: 3rem;
+    margin-top: 20px;
+    margin-left: 30px; 
+}
+.li a {
+    padding: 2rem;
+    margin-left: 2px;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    display: inline-block;
+}  
+
+.content {
+    border-bottom: 100px, #375139;
+    width: 50%;
+    padding-left: 4rem;
+    padding-top: 15em;
+    padding-bottom: 18rem;
+    margin: 40px;
+    border-bottom: 10px, #375139;
+}
+
+.element1 {
+    background-color: #375139;
+    height: 10px;
+    width: 180px;
+    margin-left: 115px;
+    margin-top: -220px;
+}
+
+.Name {
+    margin: 10px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: block;
+    text-align: left;
+}  
+
+.Status {
+    margin: 10px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: block;
+    text-align: left;
+}
+
+.typo {
+    font-size: 180px;
+    font-family: Arial, sans-serif;
+    font-style: bold;
+    color: #375139;
+    margin-bottom: -61px;
+}
+
+.tab1 {
+    height: 300px;
+    width: 100%;
+    background-color: #193412;
+    margin-top: 0px; 
+    padding-top: 0px;  
+}
+.tab2 {
+    height: 300px;
+    width: 100%;
+    background-color: #18333C;
+}
+.tab3 {
+    height: 300px;
+    width: 100%;
+    background-color: #2C2643;
+}
+.tab1 h2 {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: Arial, Amiko, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 130px;
+
+}
+.tab2 h2 {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: Arial, Amiko, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 130px;
+}
+.tab3 h2 {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: Arial, Amiko, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 130px;
+}
+
+.element2 {
+    background-color: #375139;
+    height: 10px;
+    width: 180px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer img {
+    width: 250px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+} 
